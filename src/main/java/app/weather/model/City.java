@@ -2,13 +2,13 @@ package app.weather.model;
 
 public enum City {
 
-	DELHI("Delhi, the National Capital Territory of Delhi, India", "28.610001", "77.230003"),
+	Delhi("Delhi, the National Capital Territory of Delhi, India", "28.610001", "77.230003"),
 
-	MUMBAI("Mumbai, Maharashtra, India", "19.076090", "72.877426"),
+	Mumbai("Mumbai, Maharashtra, India", "19.076090", "72.877426"),
 
-	LUCKNOW("Lucknow, Uttar Pradesh, India", "26.850000", "80.949997"),
+	Lucknow("Lucknow, Uttar Pradesh, India", "26.850000", "80.949997"),
 
-	RAIPUR("Raipur, Chhattisgarh, India", "21.250000", "81.629997");
+	Raipur("Raipur, Chhattisgarh, India", "21.250000", "81.629997");
 
 	public String getLatitude() {
 		return latitude;
