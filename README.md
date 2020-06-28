@@ -31,5 +31,5 @@ Current Weather
 Previous Weather
 ![image](https://github.com/maxsteel1996/WeatherApp/blob/master/ScreenShot/Screenshot_Current.PNG)
 
-Analytics
+Analytics Data
 ![image](https://github.com/maxsteel1996/WeatherApp/blob/master/ScreenShot/Screenshot_Analytics.PNG)
