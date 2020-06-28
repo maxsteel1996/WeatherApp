@@ -31,9 +31,9 @@ public class AnalyticsAspect {
 
 		synchronized (this) {
 			SearchAnalytics searchAnalytics = analyticRepository
-					.findTopByCityAndTypeAndDate(inputCity.getFullInfo(), SearchType.CURRENT, new Date())
-					.orElse(new SearchAnalytics(new Date(), (long) 0, SearchType.CURRENT, inputCity.getFullInfo()));
-			searchAnalytics.setCount(searchAnalytics.getCount() + 1);
+					.findTopByCity(inputCity.getFullInfo())
+					.orElse(new SearchAnalytics( (long) 0, (long) 0, inputCity.getFullInfo()));
+			searchAnalytics.setCurrentCount(searchAnalytics.getCurrentCount() + 1);
 			analyticRepository.save(searchAnalytics);
 		}
 
@@ -47,9 +47,9 @@ public class AnalyticsAspect {
 		logger.info("[afterHistoricalForcast] called with city: {}", inputCity);
 		synchronized (this) {
 			SearchAnalytics searchAnalytics = analyticRepository
-					.findTopByCityAndTypeAndDate(inputCity.getFullInfo(), SearchType.HISTORY, new Date())
-					.orElse(new SearchAnalytics(new Date(), (long) 0, SearchType.HISTORY, inputCity.getFullInfo()));
-			searchAnalytics.setCount(searchAnalytics.getCount() + 1);
+					.findTopByCity(inputCity.getFullInfo())
+					.orElse(new SearchAnalytics( (long) 0, (long) 0, inputCity.getFullInfo()));
+			searchAnalytics.setHistoricalCount(searchAnalytics.getHistoricalCount() + 1);
 			analyticRepository.save(searchAnalytics);
 		}
 		System.out.println("Returning:" + retVal.toString());

@@ -11,7 +11,6 @@ import javax.persistence.TemporalType;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
 @Entity
@@ -21,20 +20,17 @@ import lombok.ToString;
 
 public class SearchAnalytics {
 
-	public SearchAnalytics(Date date, Long count, SearchType type, String city) {
-		this.date = date;
-		this.count = count;
-		this.type = type;
+	public SearchAnalytics(Long currentCount, Long historicalCount, String city) {
+		this.currentCount = currentCount;
+		this.historicalCount = historicalCount;
 		this.city = city;
 	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Temporal(TemporalType.DATE)
-	private Date date;
-	private Long count;
-	private SearchType type;
+	private Long currentCount;
+	private Long historicalCount;
 	private String city;
 
 }

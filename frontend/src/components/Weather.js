@@ -2,29 +2,25 @@ import React, { Component } from "react";
 class Weather extends Component {
   state = {};
   render() {
-    const imgurl = `http://openweathermap.org/img/w/${this.props.icon}.png`;
+    const { city, date, icon, temp, weatherDescription } = this.props.data;
+    const imgurl = `http://openweathermap.org/img/w/${icon}.png`;
     return (
       <div className="weather__info">
-        {this.props.icon && <img id="wicon" src={imgurl} alt="Weather icon" />}
-        {this.props.description && (
-          <span className="weather__value">{this.props.description}</span>
+        {icon && <img id="wicon" src={imgurl} alt="Weather icon" />}
+        {weatherDescription && (
+          <span className="weather__value">{weatherDescription}</span>
         )}
-        {this.props.temperature && (
+        {temp && (
           <p className="weather__key">
-            Temperature:{" "}
-            <span className="weather__value">
-              {this.props.temperature} degree Celsius
-            </span>
+            Temperature: <span className="weather__value">{temp}&#8451;</span>
           </p>
         )}
-        {this.props.city && (
+        {city && (
           <p className="weather__key">
             Location:
-            <span className="weather__value">{this.props.city}</span>
+            <span className="weather__value">{city}</span>
           </p>
         )}
-
-        {this.props.error && <p>{this.props.error}</p>}
       </div>
     );
   }

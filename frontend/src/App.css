@@ -131,6 +131,10 @@ button:active {
   font-weight: 400;
 }
 
+.table-responsive {
+  max-height: 380px;
+}
+
 .weather__history {
   color: #fff !important;
   font-weight: lighter;
