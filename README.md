@@ -1,5 +1,6 @@
 # WeatherApp
-This is a fullstack application which shows the current and historical weather forcast upto previous 5 days.
+This is a fullstack application which shows the current and historical weather forcast upto previous 5 days, using https://openweathermap.org/.
+I have used their one call api.
 The number of selection of cities is limited to 4.
 
 # Technology Used
