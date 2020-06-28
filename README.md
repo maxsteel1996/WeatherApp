@@ -24,3 +24,11 @@ The number of selection of cities is limited to 4.
 
 # Screenshot 
 
+Current Weather
+![image](https://github.com/maxsteel1996/WeatherApp/blob/master/ScreenShot/Screenshot_current_weather.PNG)
+
+Previous Weather
+![image](https://github.com/maxsteel1996/WeatherApp/blob/master/ScreenShot/Screenshot_Current.PNG)
+
+Analytics
+![image](https://github.com/maxsteel1996/WeatherApp/blob/master/ScreenShot/Screenshot_Analytics.PNG)
