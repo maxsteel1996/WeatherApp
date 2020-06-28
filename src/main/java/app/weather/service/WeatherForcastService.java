@@ -6,7 +6,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.logging.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,8 +21,8 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import app.weather.model.City;
-import app.weather.model.CurrentWeatherDTO;
+import app.weather.dto.City;
+import app.weather.dto.CurrentWeatherDTO;
 
 @Service
 public class WeatherForcastService {

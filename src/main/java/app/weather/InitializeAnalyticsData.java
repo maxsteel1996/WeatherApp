@@ -5,8 +5,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import app.weather.model.City;
-import app.weather.model.SearchAnalytics;
+import app.weather.dto.City;
+import app.weather.entity.SearchAnalytics;
 import app.weather.repository.AnalyticRepository;
 
 @Component

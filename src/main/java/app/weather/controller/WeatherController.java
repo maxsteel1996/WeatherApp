@@ -11,11 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-
-import app.weather.model.City;
-import app.weather.model.CurrentWeatherDTO;
+import app.weather.dto.City;
+import app.weather.dto.CurrentWeatherDTO;
 import app.weather.service.WeatherForcastService;
 
 @RestController

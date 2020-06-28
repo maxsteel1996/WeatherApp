@@ -3,7 +3,7 @@ package app.weather.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import app.weather.model.SearchAnalytics;
+import app.weather.entity.SearchAnalytics;
 import app.weather.repository.AnalyticRepository;
 
 @Service

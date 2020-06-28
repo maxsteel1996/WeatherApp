@@ -1,7 +1,5 @@
 package app.weather.aop;
 
-import java.util.Date;
-
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -9,9 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
-import app.weather.model.City;
-import app.weather.model.SearchAnalytics;
-import app.weather.model.SearchType;
+import app.weather.dto.City;
+import app.weather.entity.SearchAnalytics;
 import app.weather.repository.AnalyticRepository;
 
 @Aspect

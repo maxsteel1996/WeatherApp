@@ -1,4 +1,4 @@
-package app.weather.model;
+package app.weather.dto;
 
 import java.util.Date;
 
