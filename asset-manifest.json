@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/weather.forcast.io/static/css/main.fb2bfc63.chunk.css",
+    "main.js": "/weather.forcast.io/static/js/main.51f9c2bb.chunk.js",
+    "main.js.map": "/weather.forcast.io/static/js/main.51f9c2bb.chunk.js.map",
+    "runtime-main.js": "/weather.forcast.io/static/js/runtime-main.8037e021.js",
+    "runtime-main.js.map": "/weather.forcast.io/static/js/runtime-main.8037e021.js.map",
+    "static/css/2.ec1ba0f0.chunk.css": "/weather.forcast.io/static/css/2.ec1ba0f0.chunk.css",
+    "static/js/2.a7e10371.chunk.js": "/weather.forcast.io/static/js/2.a7e10371.chunk.js",
+    "static/js/2.a7e10371.chunk.js.map": "/weather.forcast.io/static/js/2.a7e10371.chunk.js.map",
+    "index.html": "/weather.forcast.io/index.html",
+    "precache-manifest.51e1a261b2df9fa4fc966fa05ff32215.js": "/weather.forcast.io/precache-manifest.51e1a261b2df9fa4fc966fa05ff32215.js",
+    "service-worker.js": "/weather.forcast.io/service-worker.js",
+    "static/css/2.ec1ba0f0.chunk.css.map": "/weather.forcast.io/static/css/2.ec1ba0f0.chunk.css.map",
+    "static/css/main.fb2bfc63.chunk.css.map": "/weather.forcast.io/static/css/main.fb2bfc63.chunk.css.map",
+    "static/js/2.a7e10371.chunk.js.LICENSE.txt": "/weather.forcast.io/static/js/2.a7e10371.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/weather.forcast.io/static/media/bg.2c4b5a85.jpg",
+    "static/media/bootstrap.min.css": "/weather.forcast.io/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8037e021.js",
+    "static/css/2.ec1ba0f0.chunk.css",
+    "static/js/2.a7e10371.chunk.js",
+    "static/css/main.fb2bfc63.chunk.css",
+    "static/js/main.51f9c2bb.chunk.js"
+  ]
+}
