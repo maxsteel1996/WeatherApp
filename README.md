@@ -1,0 +1,26 @@
+# WeatherApp
+This is a fullstack application which shows the current and historical weather forcast upto previous 5 days.
+The number of selection of cities is limited to 4.
+
+# Technology Used
+- Java 8
+- Springboot
+- React JS
+
+# Fetaure
+- Current Weather Forcast
+- Historical Weather Forcast
+- Analytics for cities with their respective search type
+
+# APIs exposed from Backend side
+- GET /api/weather/current?city=Delhi
+- GET /api/weather/historical?city=Mumbai
+- GET /api/analytics
+
+# Database schema for storing analytics
+- city
+- currentCount
+- historicalCount
+
+# Screenshot 
+
